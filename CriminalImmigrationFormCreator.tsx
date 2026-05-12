@@ -100,6 +100,129 @@ I certify that a true copy of this Motion has been electronically delivered to D
 ANNA VICTORIA BARR
 Attorney`,
 
+  engagement_expunction: (v) => `VICTORIA QUINONES BARR PLLC d/b/a VICTORIA BARR LAW, PLLC
+${ATTORNEY.address}
+Phone: ${ATTORNEY.phone} | Fax: (214) 310-0540
+office@victoriabarrlaw.com | www.victoriabarrlaw.com
+${'─'.repeat(72)}
+
+              EXPUNCTION & NONDISCLOSURE LEGAL SERVICES AGREEMENT
+                    Victoria Quinones Barr, PLLC d/b/a Victoria Barr Law, PLLC
+
+Client and Attorney enter into this Legal Services Agreement (the "Agreement") on _______________________. The parties to this Agreement are Anna Victoria Quinones Barr, doing business as Victoria Barr Law, PLLC ("Attorney"), and ${v.defendant || '_____________________________________________ '} ("Client"). Attorney agrees to represent Client in the matter of a Petition for Expunction or Petition for Order of Nondisclosure in _________________________, Texas. This Agreement establishes the terms and conditions under which Attorney provides legal services to Client.
+
+I. SCOPE OF REPRESENTATION
+─────────────────────────────────────────────────────────────────────────
+Attorney provides legal services including: counseling and advising Client regarding eligibility for expunction or nondisclosure; investigating facts and applicable records; drafting the Petition; filing the Petition with the appropriate court; serving all statutorily required respondent agencies; and representing Client at the final hearing or compliance docket.
+
+Attorney retains sole professional authority over the means of representation, including strategy, drafting priorities, and courtroom tactics. Client retains authority over the objectives of representation, including whether to proceed with the filing. Attorney may refuse to take any action Attorney considers imprudent, unethical, or contrary to the Texas Disciplinary Rules of Professional Conduct ("TDRPC") or The Texas Lawyer's Creed, regardless of Client's instruction.
+
+Client acknowledges that Attorney cannot guarantee any particular outcome. The presiding judge holds sole discretion to grant or deny an Order of Nondisclosure, and statutory entities may contest Expunction eligibility. Attorney provides diligent representation within the bounds of the law and the TDRPC.
+
+A. Immigration Consequences Analysis Add-On — Limited Scope
+─────────────────────────────────────────────────────────────────────────
+This add-on applies ONLY when Client seeks to retain Victoria Barr Law, PLLC to provide a formal, written Immigration Consequences Memorandum detailing how an expunction or nondisclosure impacts Client's federal immigration status.
+
+________ Client initialing here confirms Client retains Victoria Barr Law, PLLC under this add-on for the written Immigration Consequences Memorandum.
+
+Under this add-on, Attorney analyzes the specific federal immigration impact of the state-court record clearing process. Client acknowledges that federal immigration authorities (including the Department of Homeland Security) routinely ignore Texas expunctions and nondisclosures. Attorney prepares a written informational letter summarizing these consequences in plain language. Attorney does not file affirmative immigration applications under this agreement.
+
+II. FEE-EARNING BENCHMARK STRUCTURE
+─────────────────────────────────────────────────────────────────────────
+Attorney and Client agree that fees vest as fully earned and the sole property of Attorney upon completion of the following benchmarks. Each benchmark represents actual professional work performed or a professional obligation incurred. Fees vest as non-refundable only as Attorney completes each benchmark. This structure complies with TDRPC Rule 1.04 and Texas State Bar Ethics Opinion 611 (2011).
+
+First Benchmark (1/3)
+─────────────────────────────────────────────────────────────────────────
+Attorney earns one-third of the flat fee upon drafting and filing the Petition for Expunction or Petition for Order of Nondisclosure with the appropriate court. This action establishes Attorney as Counsel of Record and initiates the civil proceeding, imposing immediate, judicially-supervised professional obligations on Attorney. If representation ends before Attorney completes this benchmark, Attorney bills Client at $475.00 per hour for time spent.
+
+Second Benchmark (1/3)
+─────────────────────────────────────────────────────────────────────────
+Attorney earns an additional one-third of the flat fee upon serving the filed Petition and notices of hearing on all required statutory respondent agencies (e.g., Department of Public Safety, District Attorney, local law enforcement). Identifying, locating, and properly serving these entities constitutes core legal work necessary to bind the agencies to the final order. If representation ends before Attorney completes this benchmark, Attorney bills Client at $475.00 per hour for time spent.
+
+Third Benchmark (1/3)
+─────────────────────────────────────────────────────────────────────────
+Attorney earns the final one-third of the flat fee upon representing Client at the final hearing or upon securing an agreed Order signed by the presiding judge, whichever occurs first. If representation ends before Attorney completes this benchmark, Attorney bills Client at $475.00 per hour for time spent.
+
+Upon completing each benchmark, Attorney transfers the earned portion from Client's trust funds to Attorney's operating account immediately. These amounts represent fees Attorney earned through work performed or professional obligations incurred.
+
+III. FEES AND PAYMENT TERMS
+─────────────────────────────────────────────────────────────────────────
+Client agrees to pay a total Flat Fee of $____________________________ for representation. Client agrees to pay an initial payment of $____________________________ today.
+
+A. Immigration Consequences Analysis Add-On Fee
+─────────────────────────────────────────────────────────────────────────
+If Client initialed the add-on in Section I, Client agrees to pay an additional Flat Fee of $____________________________ for the written Immigration Consequences Analysis.
+
+B. Exclusions from All Fees
+─────────────────────────────────────────────────────────────────────────
+Attorney excludes the following costs from the flat fee: filing fees; background check fees; fingerprinting costs; court reporter transcripts; travel expenses; and postage for serving respondent agencies. Attorney requires Client to pay the initial court filing fee (typically ranging from $300 to $400 depending on the county and number of agencies) before Attorney files the Petition. Attorney charges expenses of $500.00 or less automatically to the account on file and provides Client written notice within three (3) business days.
+
+C. Payment Schedule and Default
+─────────────────────────────────────────────────────────────────────────
+Client owes all legal fees in full at the time Client signs this Agreement. At Attorney's sole discretion, Attorney permits Client to make installment payments as a courtesy. Client understands that failure to maintain timely payments accelerates the entire remaining balance and constitutes grounds for Attorney to withdraw.
+
+Attorney assesses a $75.00 late fee for each payment Client fails to submit on its due date. Attorney assesses a $150.00 NSF fee for any returned check and a $35.00 fee for any declined credit card charge. Client must not pay legal fees using funds derived from illegal activities.
+
+┌─────┬───────────────────────────┬──────────────────────────┐
+│ No. │        Amount Due         │         Due Date          │
+├─────┼───────────────────────────┼──────────────────────────┤
+│  1  │  $                        │                           │
+│  2  │  $                        │                           │
+│  3  │  $                        │                           │
+│  4  │  $                        │                           │
+│  5  │  $                        │                           │
+└─────┴───────────────────────────┴──────────────────────────┘
+
+IV. IMMIGRATION CONSEQUENCES — FEDERAL TREATMENT OF EXPUNCTIONS
+─────────────────────────────────────────────────────────────────────────
+Victoria Barr Law, PLLC practices both criminal defense and immigration law. Attorney specifically advises Client that federal immigration law, under the Immigration and Nationality Act (INA), does not recognize Texas expunctions or orders of nondisclosure for most purposes. If Client is not a United States citizen, federal agencies may still treat an expunged or sealed record as a conviction or admission of criminal conduct.
+
+Client understands that obtaining an expunction or nondisclosure under Texas law does not erase the record for deportation, inadmissibility, or naturalization proceedings. Attorney advises Client to retain copies of all criminal court records before pursuing an expunction, as federal authorities often require these documents even after the State of Texas destroys them.
+
+V. CLIENT CONDUCT AND COMMUNICATION STANDARDS
+─────────────────────────────────────────────────────────────────────────
+Client agrees to communicate with Attorney and all firm staff in a professional and respectful manner at all times. Client understands that threatening, harassing, intimidating, or abusive conduct directed at Attorney or firm staff constitutes immediate grounds for termination of this Agreement.
+
+Attorney maintains regular business hours of Monday through Friday, 9:00 a.m. to 5:30 p.m. CST. Attorney makes reasonable efforts to respond to Client communications within two (2) business days. Client agrees to use a single designated method of communication per inquiry.
+
+Client must maintain current contact information on file with Attorney at all times. If Client remains unreachable for ten (10) or more consecutive business days despite Attorney's documented attempts to contact Client, Attorney treats Client's non-communication as conduct making representation unreasonably difficult and initiates withdrawal.
+
+VI. LIMITATIONS ON REPRESENTATION
+─────────────────────────────────────────────────────────────────────────
+The fees in this Agreement cover only the expunction or nondisclosure services described in Section I. This Agreement expressly excludes the following matters, which require a separate written fee agreement:
+
+     •  Representation in any active or pending criminal prosecution, trial, or appeal.
+     •  Administrative License Revocation (ALR) hearings before the Texas Department of Public Safety.
+     •  Representation for probation revocations or motions to adjudicate guilt.
+     •  Filing affirmative applications with United States Citizenship and Immigration Services (USCIS) or representation in Immigration Court.
+
+VII. TERMINATION AND DISPUTE RESOLUTION
+─────────────────────────────────────────────────────────────────────────
+Client may terminate this Agreement at any time upon written notice to Attorney. Upon termination, Client remains responsible for fees Attorney earned through any completed benchmarks. If Attorney completes no benchmark, Client owes fees at $475.00 per hour for time spent.
+
+The parties submit any dispute arising exclusively from Attorney's fees, charges, billing, or payment obligations to a three-step resolution process: (1) thirty (30) days of good-faith direct negotiation; (2) non-binding mediation in Collin County, Texas, or submission to the State Bar of Texas Fee Dispute Resolution Program; and (3) final and binding arbitration in Collin County, Texas, administered by the American Arbitration Association (AAA).
+
+VIII. CLIENT ACKNOWLEDGMENT AND AUTHORIZATION
+─────────────────────────────────────────────────────────────────────────
+I confirm that I read, understand, and agree to all terms of this Agreement. I specifically acknowledge the benchmark fee structure, the exclusion of criminal trial representation, and the strict communication standards. I further acknowledge Attorney advised me that federal immigration authorities do not recognize Texas expunctions or nondisclosures.
+
+
+Client Name:      ________________________________
+
+Client Signature: ________________________________
+
+Date:             ________________________________
+
+
+                                            ________________________________
+                                            Anna Victoria Quinones Barr
+                                            ${ATTORNEY.firm}
+                                            Texas Bar No. ${ATTORNEY.bar}
+                                            ${ATTORNEY.phone} | Fax: (214) 310-0540
+                                            office@victoriabarrlaw.com
+
+________  INITIALS`,
+
   appearance_39_14: (v) => `${LETTERHEAD}
 
 NO. ${v.causeNo || '[CAUSE NO.]'}
@@ -206,6 +329,7 @@ const CRIM_FORMS = [
   { value: 'intake_general_spanish', label: 'General Client Intake Questionnaire (Bilingual)', category: 'Client Intake & Engagement' },
   { value: 'intake_dwi', label: 'DWI Case Intake Worksheet', category: 'Client Intake & Engagement' },
   { value: 'intake_expunction', label: 'Expunction Eligibility Interview Sheet', category: 'Client Intake & Engagement' },
+  { value: 'engagement_expunction', label: 'Legal Services Agreement – Expunction & Nondisclosure', category: 'Client Intake & Engagement' },
   { value: 'engagement_terms', label: 'Terms and Conditions of Legal Representation', category: 'Client Intake & Engagement' },
   { value: 'auth_release_info', label: 'Client Authorization to Release Information', category: 'Client Intake & Engagement' },
   { value: 'auth_medical_records', label: 'Authorization for Release of Medical Records', category: 'Client Intake & Engagement' },
@@ -221,7 +345,7 @@ const CRIM_FORMS = [
 
 const CRIM_INTAKE_TYPES = new Set([
   'intake_general','intake_general_spanish','intake_dwi','intake_expunction',
-  'engagement_terms','auth_release_info','auth_medical_records','auth_hipaa','plea_worksheet'
+  'engagement_terms','engagement_expunction','auth_release_info','auth_medical_records','auth_hipaa','plea_worksheet'
 ]);
 
 const CRIM_OFFENSES = [
