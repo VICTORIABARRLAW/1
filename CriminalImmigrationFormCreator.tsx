@@ -25,6 +25,81 @@ ${'─'.repeat(72)}`;
 // Templates extracted directly from firm documents; variables in [BRACKETS].
 const STATIC_TEMPLATES: Record<string, (vars: Record<string, string>) => string> = {
 
+  motion_withdraw_counsel: (v) => `CAUSE NO. ${v.causeNo || '_________________'}
+
+STATE OF TEXAS                             §
+                                           §
+v.                                         §    ${v.court || '[COURT]'}
+                                           §
+${v.defendant || '____________________'}   §    ${v.county || '[COUNTY]'} COUNTY, TEXAS
+
+              MOTION TO WITHDRAW AS ATTORNEY OF RECORD
+
+ANNA VICTORIA BARR, Defendant's attorney of record in the above-styled and numbered cause, files this Motion to withdraw and in support shows the following:
+
+     1.   Movant is the attorney of record for ${v.defendant || '____________________________'}.
+
+     2.   Attorney was retained on ________________.
+
+     3.   Defendant agrees to the withdrawal as evidenced by his signature.
+
+     4.   Defendant has been delivered a copy of this Motion, and has been notified in writing of the right to object to this Motion. The last known address for Defendant is _____________________________. The last known telephone number for Defendant is _______________. The last known email for Defendant is ____________________.
+
+     5.   Good cause to withdraw exists and in support Movant shows as follows:
+
+     6.   Defendant has failed substantially to fulfill an obligation to Movant regarding Movant's services, including an obligation to pay Movant's fee as agreed, and has been given reasonable warning that the Movant will withdraw unless the obligation is fulfilled.
+
+     7.   The withdrawal is not sought for delay, but that Defendant may be represented by counsel of his choice.
+
+     8.   Continued representation by counsel is prejudicial to the Defendant because he will not receive effective assistance of counsel and a fair trial in this case for the reasons stated above.
+
+     9.   Withdrawal of counsel will not adversely affect or delay the interest of justice.
+
+     10.  The pending settings and deadlines in this case are as follows:
+          Next Appearance: ______________________
+
+MOVANT PRAYS this Court grant all relief requested in this Motion or, in the alternative, this Court set this Motion for a hearing and at the conclusion of the hearing the Court grant all requested relief.
+
+                                            Respectfully submitted,
+
+                                            ${ATTORNEY.firm}
+                                            1312 14th Street, Suite 206, Plano, TX 75074
+
+
+                                            /s/ Anna Victoria Barr
+                                            ANNA VICTORIA BARR
+                                            Attorney for Defendant
+                                            Bar No. ${ATTORNEY.bar}
+                                            Office Phone: ${ATTORNEY.phone}
+                                            Fax: (214) 310-0540
+                                            Email: office@victoriabarrlaw.com
+
+
+I, _______________________, AGREE TO THIS WITHDRAWAL OF ATTORNEY
+
+_____________________________
+SIGNATURE
+
+DATE: _____________________________
+
+
+                              CERTIFICATE OF SERVICE
+
+I certify that a true and correct copy of the above document was served on the ${v.county || '[COUNTY]'} County District Attorney's office, through the electronic filing manager on _________________.
+
+/s/ Anna Victoria Barr
+ANNA VICTORIA BARR
+Attorney for Defendant
+
+
+                         CERTIFICATE OF SERVICE TO DEFENDANT
+
+I certify that a true copy of this Motion has been electronically delivered to Defendant at his last known email ________________________.
+
+/s/ Anna Victoria Barr
+ANNA VICTORIA BARR
+Attorney`,
+
   appearance_39_14: (v) => `${LETTERHEAD}
 
 NO. ${v.causeNo || '[CAUSE NO.]'}
