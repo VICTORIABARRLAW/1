@@ -100,6 +100,340 @@ I certify that a true copy of this Motion has been electronically delivered to D
 ANNA VICTORIA BARR
 Attorney`,
 
+  nd_checklist_dwi: (_v) => `FORM 12A-1 — QUICK REFERENCE CHECKLIST: NONDISCLOSURE LAW FOR DWIs
+${'─'.repeat(72)}
+
+A DWI conviction IS ELIGIBLE for a nondisclosure order IF ALL of the following apply:
+
+  1. It is a true first offense (client has never been convicted or placed on deferred
+     adjudication for any offense, other than a fine-only traffic offense).
+
+  2. The client is NOT convicted of an enhanced DWI under Tex. Penal Code §49.04(d)
+     (i.e., BAC of .15 or higher).
+
+  3. The client successfully completed probation OR a term of confinement.
+
+  4. The client has paid all fines, court costs, and restitution.
+
+  5. The DWI did NOT result in an accident involving another person, including a
+     passenger in the client's car.
+
+  6. The appropriate waiting period has elapsed without any new offenses (other than
+     a fine-only traffic offense).
+
+WAITING PERIODS:
+
+  Successful Completion of Probation:
+    • 2 years — if client had a DLD (deep-lung device/interlock) installed as a
+      condition of probation; OR
+    • 5 years — if there was no DLD.
+
+  Jail Sentence (initial sentence OR probation revocation):
+    • 3 years — if client had a DLD installed as a condition of the sentence; OR
+    • 5 years — if there was no DLD.
+
+─────────────────────────────────────────────────────────────────────────
+A DWI conviction is NOT ELIGIBLE for nondisclosure if:
+
+  1. The client is convicted of an enhanced DWI (.15 or higher BAC).
+  2. The client is convicted of a DWI 2nd or more.
+  3. The client is convicted of Boating While Intoxicated, Flying While Intoxicated,
+     or Assembling/Operating an Amusement Park Ride While Intoxicated.
+  4. The DWI involved an accident involving another person, including a passenger.
+  5. The client failed to comply with the applicable waiting period.
+
+─────────────────────────────────────────────────────────────────────────
+FORM REFERENCE:
+  • Form 12A-2 — Verified Petition for Nondisclosure (Successful Probation)
+  • Form 12A-4 — Verified Petition for Nondisclosure (Confinement/Unsuccessful CS)
+  • Form 12A-5 — Order of Nondisclosure (Confinement/Unsuccessful CS)`,
+
+  nd_petition_probation: (v) => `NO. ${v.causeNo || '__________________________'}
+
+STATE OF TEXAS                 §     IN THE ${v.court || '________'} COURT
+                               §
+vs.                            §     OF
+                               §
+${v.defendant || '_________________'} §     ${v.county || '_____'} COUNTY, TEXAS
+
+
+                        VERIFIED PETITION FOR NONDISCLOSURE
+                              (SUCCESSFUL PROBATION — DWI)
+                             [FORM 12A-2 / Gov't Code § 411.0731]
+
+TO THE HONORABLE JUDGE OF SAID COURT:
+
+${v.defendant || '___________________'}, Petitioner, moves this Court for an Order of Nondisclosure under Section 411.0731 of the Texas Government Code and would show the Court as follows:
+
+Petitioner's information:
+NAME:                    ${v.defendant || '___________________'}
+SEX:                     _______________
+RACE:                    _______________
+DATE OF BIRTH:           _______________
+DRIVER'S LICENSE NUMBER: Texas _______________
+SOCIAL SECURITY NUMBER:  _______________
+
+Offense that is the subject of this Petition:
+OFFENSE:                 Driving While Intoxicated under .15
+DATE OF OFFENSE:         on or about _______________
+DATE OF ARREST:          on or about _______________
+COUNTY WHERE ARRESTED:   ${v.county || '____________'}
+ARRESTING AGENCY:        _______________
+CASE NUMBER:             ${v.causeNo || '_______________'}
+COURT:                   ${v.court || '_______________'}
+
+Petitioner is eligible for the requested Order because the offense for which Petitioner was convicted was a misdemeanor under Tex. Penal Code §49.04, but not an offense punishable under subsection (d) of that section.
+
+NOTE: SELECT ONE OF THE FOLLOWING TWO PARAGRAPHS:
+
+[ ] Petitioner is eligible for the requested Order because at least two years have passed since
+Petitioner was discharged from community supervision on ____________________, during which
+Petitioner successfully complied with a term of community supervision requiring his/her vehicle
+to be equipped with an ignition interlock device for a period of at least six months.
+(See Exhibits ____).
+
+                                        —OR—
+
+[ ] Petitioner is eligible for the requested Order because at least five years have passed since
+Petitioner was discharged from community supervision on __________________. (See Exhibit ____).
+
+During the period described above, Petitioner has not been convicted of or placed on deferred adjudication community supervision for any offense other than an offense under the Transportation Code punishable by fine only.
+
+Petitioner has not been placed on deferred adjudication community supervision for or has not been previously convicted or placed on any other deferred adjudication for:
+     a. an offense requiring registration as a sex offender under Chapter 62, Code of Criminal Procedure;
+     b. an offense under Section 20.04, Penal Code, regardless of whether the offense is a reportable conviction or adjudication for purposes of Chapter 62, Code of Criminal Procedure;
+     c. an offense under Section 19.02, 19.03, 22.04, 22.041, 25.07, or 42.072, Penal Code; or
+     d. any other offense involving family violence, as defined by Section 71.004, Family Code.
+
+Petitioner would also show that the issuance of an Order of Nondisclosure is in the best interest of justice because: __________________________________.
+
+Petitioner prays that the Court will set this matter for a hearing, if requested by the state, and issue an Order of Nondisclosure.
+
+                                            Respectfully submitted,
+
+                                            ${ATTORNEY.firm}
+
+
+                                            /s/ ${ATTORNEY.name}
+                                            ${ATTORNEY.name}
+                                            Texas Bar No. ${ATTORNEY.bar}
+                                            ${ATTORNEY.address}
+                                            Phone: ${ATTORNEY.phone}
+                                            Fax: (214) 310-0540
+                                            office@victoriabarrlaw.com
+
+
+                              CERTIFICATE OF SERVICE
+
+This is to certify that on _________, a true and correct copy of the above and foregoing document was served on the District Attorney's Office, ${v.county || '_______'} County, by e-service delivery through the Texas E-File system to [Insert name of person served].
+
+________________________________
+${ATTORNEY.name}
+
+
+${'─'.repeat(72)}
+
+NO. ${v.causeNo || '__________________________'}
+
+STATE OF TEXAS                 §     IN THE ${v.court || '________'} COURT
+                               §
+vs.                            §     OF
+                               §
+${v.defendant || '_________________'} §     ${v.county || '_______'} COUNTY, TEXAS
+
+
+                              ORDER FOR A SETTING
+
+On _________________, the Petitioner filed a Petition for Nondisclosure. The Court finds that the party is entitled to a hearing on this matter, and it is THEREFORE ORDERED that a hearing on this motion is set for __________, at _____.
+
+Signed on ________.
+
+___________________________
+JUDGE PRESIDING`,
+
+  nd_petition_confinement: (v) => `NO. ${v.causeNo || '__________________________'}
+
+STATE OF TEXAS                 §     IN THE ${v.court || '________'} COURT
+                               §
+vs.                            §     OF
+                               §
+${v.defendant || '_________________'} §     ${v.county || '____________'} COUNTY, TEXAS
+
+
+                        VERIFIED PETITION FOR NONDISCLOSURE
+                     (CONFINEMENT OR UNSUCCESSFUL PROBATION — DWI)
+                             [FORM 12A-4 / Gov't Code § 411.0736]
+
+TO THE HONORABLE JUDGE OF SAID COURT:
+
+${v.defendant || '___________________'}, Petitioner, moves this Court for an Order of Nondisclosure under Section 411.0736 of the Texas Government Code and would show the Court as follows:
+
+Petitioner's information:
+NAME:                    ${v.defendant || '___________________'}
+SEX:                     _______________
+RACE:                    _______________
+DATE OF BIRTH:           _______________
+DRIVER'S LICENSE NUMBER: Texas _______________
+SOCIAL SECURITY NUMBER:  _______________
+
+Offense that is the subject of this Petition:
+OFFENSE:                 Driving While Intoxicated under .15
+DATE OF OFFENSE:         on or about _______________
+DATE OF ARREST:          on or about _______________
+COUNTY WHERE ARRESTED:   ${v.county || '____________'}
+ARRESTING AGENCY:        _______________
+CASE NUMBER:             ${v.causeNo || '_______________'}
+COURT:                   ${v.court || '_______________'}
+TRN:                     ______________
+
+Petitioner is eligible for the requested Order because the offense for which Petitioner was convicted was a misdemeanor under Tex. Penal Code §49.04, but not an offense punishable under subsection (d) of that section.
+
+NOTE: SELECT ONE OF THE FOLLOWING TWO PARAGRAPHS:
+
+[ ] Petitioner is eligible for the requested Order because at least three years have passed since
+Petitioner completed his/her term of confinement under the sentence on ____________________
+(or was unsuccessfully discharged from probation) and Petitioner successfully complied with a
+term of his/her sentence requiring his/her vehicle to be equipped with an ignition interlock device
+for a period of at least six months. (See Exhibits ____).
+
+                                        —OR—
+
+[ ] Petitioner is eligible for the requested Order because at least five years have passed since
+Petitioner completed his sentence of confinement (or was unsuccessfully discharged from
+probation) on __________________. (See Exhibit ____).
+
+During the period described above, Petitioner has not been convicted of or placed on deferred adjudication community supervision for any offense other than an offense under the Transportation Code punishable by fine only.
+
+Petitioner has not been placed on deferred adjudication community supervision for or has not been previously convicted or placed on any other deferred adjudication for:
+     a. an offense requiring registration as a sex offender under Chapter 62, Code of Criminal Procedure;
+     b. an offense under Section 20.04, Penal Code, regardless of whether the offense is a reportable conviction or adjudication for purposes of Chapter 62, Code of Criminal Procedure;
+     c. an offense under Section 19.02, 19.03, 22.04, 22.041, 25.07, or 42.072, Penal Code; or
+     d. any other offense involving family violence, as defined by Section 71.004, Family Code.
+
+Petitioner would also show that the issuance of such an Order of Nondisclosure is in the best interest of justice because: _________________________________________________.
+
+Petitioner prays that the Court will set this matter for a hearing, if requested by the state, and issue an Order of Nondisclosure.
+
+                                            Respectfully submitted,
+
+                                            ${ATTORNEY.firm}
+
+
+                                            /s/ ${ATTORNEY.name}
+                                            ${ATTORNEY.name}
+                                            Texas Bar No. ${ATTORNEY.bar}
+                                            ${ATTORNEY.address}
+                                            Phone: ${ATTORNEY.phone}
+                                            Fax: (214) 310-0540
+                                            office@victoriabarrlaw.com
+
+
+                              CERTIFICATE OF SERVICE
+
+This is to certify that on _______, a true and correct copy of the above and foregoing document was served on the District Attorney's Office, ${v.county || '______'} County, by e-service delivery through the Texas E-File system to [Insert name of person served].
+
+________________________________
+${ATTORNEY.name}
+
+
+${'─'.repeat(72)}
+
+NO. ${v.causeNo || '__________________________'}
+
+STATE OF TEXAS                 §     IN THE ${v.court || '________'} COURT
+                               §
+vs.                            §     OF
+                               §
+${v.defendant || '_________________'} §     ${v.county || '____________'} COUNTY, TEXAS
+
+
+                              ORDER FOR A SETTING
+
+On ____________________, the Petitioner filed a Petition for Nondisclosure. The Court finds that the party is entitled to a hearing on this matter, and it is THEREFORE ORDERED that a hearing on this motion is set for _______________, at ______.
+
+Signed on ______.
+
+___________________________
+JUDGE PRESIDING`,
+
+  nd_order_confinement: (v) => `NO. ${v.causeNo || '__________________________'}
+
+STATE OF TEXAS                 §     IN THE ${v.court || '________'} COURT
+                               §
+vs.                            §     OF
+                               §
+${v.defendant || '_________________'} §     ${v.county || '________'} COUNTY, TEXAS
+
+
+                              ORDER OF NONDISCLOSURE
+                     (CONFINEMENT/UNSUCCESSFUL CS CASES — DWI)
+                                    [FORM 12A-5]
+
+On __________, the Court heard the foregoing Petition for Nondisclosure and finds that it should be GRANTED and provides the following information to allow the appropriate agencies to comply with this Order:
+
+Petitioner's information:
+NAME:                    ${v.defendant || '___________________'}
+SEX:                     _______________
+RACE:                    _______________
+DATE OF BIRTH:           _______________
+DRIVER'S LICENSE NUMBER: Texas _______________
+SOCIAL SECURITY NUMBER:  _______________
+
+Offense that is the subject of this Petition:
+OFFENSE:                 Driving While Intoxicated under .15
+DATE OF OFFENSE:         on or about _______________
+DATE OF ARREST:          on or about _______________
+COUNTY WHERE ARRESTED:   ${v.county || '____________'}
+ARRESTING AGENCY:        _______________
+CASE NUMBER:             ${v.causeNo || '_______________'}
+COURT:                   ${v.court || '_______________'}
+TRN:                     ______________
+
+The Court further finds:
+
+Petitioner is eligible for the requested Order because the offense for which Petitioner was convicted was Driving While Intoxicated under Texas Penal Code §49.04, which is a misdemeanor, but not a misdemeanor under Texas Penal Code Chapters 20, 21, 22, 25, 42, or 46, or an offense under §49.04(d).
+Petitioner has successfully complied with the applicable waiting period.
+Petitioner has not been placed on deferred adjudication community supervision for or been previously convicted or placed on any other deferred adjudication that would render Petitioner ineligible for this nondisclosure.
+Petitioner successfully completed his/her sentence.
+
+IT IS THEREFORE ORDERED that not later than 15 days following the date of this Order, the Clerk of this Court shall send a copy of this Order by certified mail, return receipt requested, to the Crime Records Service of the Texas Department of Public Safety, at the following address:
+
+     Texas Department of Public Safety
+     Crime Records Division – MSC 0234
+     Post Office Box 4143
+     Austin, Texas 78765-4143
+
+IT IS FURTHER ORDERED that not later than 10 days following its receipt of this Order, the Department of Public Safety shall seal any criminal history record information maintained by the department that is the subject of the order.
+
+IT IS FURTHER ORDERED that not later than 30 business days following its receipt of this Order, the Department of Public Safety shall send a copy of this order by mail or electronic means to all:
+
+(1) law enforcement agencies, jails or other detention facilities, magistrates, courts, prosecuting attorneys, correctional facilities, central state depositories of criminal records, and other officials or agencies or other entities of this state or of any political subdivision of this state, including but not limited to the following:
+     ___________ Police Department
+     ___________ County Clerk
+     ${v.county || '___________'} County District Attorney
+     ${v.county || '___________'} County Sheriff
+     ${v.county || '___________'} County Community Supervision (probation)
+     Federal Bureau of Investigation & FBI Criminal Justice Information Services Division
+     1000 Custer Hollow Road
+     Clarksburg, West Virginia 26306
+
+(2) central federal depositories of criminal records that there is reason to believe have criminal history record information that is the subject of the order; and
+
+(3) private entities that purchase criminal history record information from the Department of Public Safety.
+
+No later than 30 business days following its receipt of this Order, the Department of Public Safety is further ORDERED to send a copy of the order by mail or secure electronic mail or facsimile transmission to all law enforcement agencies, jails or other detention facilities, magistrates, courts, prosecuting attorneys, correctional facilities, central state depositories of criminal records, and other officials or agencies or other entities of this state or of any political subdivision of this state, and to all central federal depositories of criminal records that there is reason to believe have criminal history record information that is the subject of the order.
+
+IT IS FURTHER ORDERED that this document is confidential, and that this document is not public information as that term is defined under the Texas Public Information Act, and shall not be disseminated pursuant to a request made under the Public Information Act. The court does not prohibit disclosure of this offense to other criminal justice agencies, to the Petitioner himself, or to other entities as specifically provided for by statute.
+
+IT IS FURTHER ORDERED that the Agencies listed in this ORDER shall seal the arrest record of Petitioner within 30 days of their receipt of this ORDER pursuant to Texas Government Code § 411.075.
+
+IT IS FURTHER ORDERED that not later than 30 days following the date this Order is signed, the Clerk of this Court shall send a conformed copy of this Order to the attorney for Petitioner.
+
+Signed on __________,
+
+_____________________
+JUDGE PRESIDING`,
+
   engagement_expunction: (v) => `VICTORIA QUINONES BARR PLLC d/b/a VICTORIA BARR LAW, PLLC
 ${ATTORNEY.address}
 Phone: ${ATTORNEY.phone} | Fax: (214) 310-0540
@@ -339,13 +673,18 @@ const CRIM_FORMS = [
   { value: 'client_letter_strategy', label: 'Client Letter – Defense Strategy', category: 'Client Letters' },
   { value: 'client_letter_probation', label: 'Client Letter – Probation Survival Guide', category: 'Client Letters' },
   { value: 'expunction_petition', label: 'Petition for Expunction – Chapter 55', category: 'Post-Conviction' },
+  { value: 'nd_checklist_dwi', label: 'DWI Nondisclosure Eligibility Checklist (12A-1)', category: 'Post-Conviction' },
+  { value: 'nd_petition_probation', label: 'Verified Petition for Nondisclosure – Successful Probation (12A-2)', category: 'Post-Conviction' },
+  { value: 'nd_petition_confinement', label: 'Verified Petition for Nondisclosure – Confinement/Unsuccessful CS (12A-4)', category: 'Post-Conviction' },
+  { value: 'nd_order_confinement', label: 'Order of Nondisclosure – Confinement/Unsuccessful CS (12A-5)', category: 'Post-Conviction' },
   { value: 'motion_release_cash_bond', label: 'Motion to Release Funds – Cash Bail Bond', category: 'Post-Conviction' },
   { value: 'competency_order', label: 'Order for Competency/Mental Illness Examination', category: 'Post-Conviction' },
 ];
 
 const CRIM_INTAKE_TYPES = new Set([
   'intake_general','intake_general_spanish','intake_dwi','intake_expunction',
-  'engagement_terms','engagement_expunction','auth_release_info','auth_medical_records','auth_hipaa','plea_worksheet'
+  'engagement_terms','engagement_expunction','auth_release_info','auth_medical_records','auth_hipaa','plea_worksheet',
+  'nd_checklist_dwi'
 ]);
 
 const CRIM_OFFENSES = [
